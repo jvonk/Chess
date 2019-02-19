@@ -24,7 +24,7 @@ public class Piece {
             System.out.println(e);
         }
     }
-    public void drawMe(Graphics2D g, int x, int y) {
-        g.drawImage(image, x, y, null);
+    public void drawMe(Graphics2D g, Point pos) {
+        g.drawImage(image, pos.x, pos.y, null);
     }
 }
